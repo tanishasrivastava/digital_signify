@@ -13,6 +13,7 @@ Digital Signify is a web application developed to provide users with a seamless 
 4. Data Security: Robust security measures are implemented to protect users' digital signatures and ensure data privacy and confidentiality.
 
 # Technologies Used:
+
 HTML
 CSS
 JavaScript
