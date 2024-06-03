@@ -24,7 +24,7 @@ Welcome to Digital Signify, your premier destination for innovative digital sign
 </div>
 
 
-# Key Features 
+# KEY FEATURES
 
 1. **User-friendly Interface**: Our platform features an intuitive and easy-to-use interface, making it simple for users to create and manage their digital signatures.
  
@@ -33,7 +33,7 @@ Welcome to Digital Signify, your premier destination for innovative digital sign
 3. **Seamless Integration**: Easily integrate Digital Signify into your existing workflows with our flexible APIs and integration options.
 
   
-**Components of Website**
+**COMPONENTS OF THE WEBSITE**
 ---
 **Main Landing Page**
 
