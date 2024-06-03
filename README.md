@@ -1,4 +1,5 @@
 # DIGITAL SIGNIFY
+<img width="1440" alt="Screenshot 2024-06-03 at 8 27 42 PM" src="https://github.com/tanishasrivastava/digital_signify/assets/138584422/a4df308b-6a1e-456e-8e31-cff157be4a0d">
 
 # Description:
 Digital Signify is a web application developed to provide users with a seamless platform for creating and managing digital signatures. It offers a user-friendly interface and a range of features to enhance the digital signing process.
