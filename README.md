@@ -1,15 +1,13 @@
-# DIGITAL SIGNIFY
+<img width="1440" alt="Screenshot 2024-06-03 at 9 08 30 PM" src="https://github.com/tanishasrivastava/digital_signify/assets/138584422/1897334b-bdcc-4bab-b9fd-8019a88b4691"># DIGITAL SIGNIFY
 <img width="1440" alt="Screenshot 2024-06-03 at 9 08 30 PM" src="https://github.com/tanishasrivastava/digital_signify/assets/138584422/e367e9b4-e93d-4964-bc46-98efe8613f24">
 
 
-# Description:
+# ABOUT THE PROJECT :
 Welcome to Digital Signify, your premier destination for innovative digital signature creation and management. Whether you're a business professional, a legal expert, or anyone needing to sign documents digitally, we're here to provide you with a seamless and secure solution. Explore our features, dive into our tech stack, and learn how to get started with Digital Signify today.
 
 ## TABLE OF CONTENTS
 
-- [About the project](#About-the-project)
 - [Tech Stack Used](#Tech-Stack-Used)
-- [Website Overview](#Website-Overview)
 - [Key Features ](#Key-Features)
 - [Components of Website](#Components-of-Website)
 
@@ -26,18 +24,32 @@ Welcome to Digital Signify, your premier destination for innovative digital sign
 </div>
 
 
-# Key Features:
-1. Create Digital Signatures: Users can easily create digital signatures using various drawing tools and customization options available in the application.
+# Key Features 
 
-2. Responsive Design: The application is built with a responsive design approach, ensuring compatibility and optimal viewing experience across different devices and screen sizes.
+1. **User-friendly Interface**: Our platform features an intuitive and easy-to-use interface, making it simple for users to create and manage their digital signatures.
+ 
+2. **Document Management**: Store and organize your digitally signed documents securely in the cloud for easy access anytime, anywhere.
 
-3. Save and Share: Users have the option to save their digital signatures in different formats and share them with others as needed, facilitating collaboration and communication.
+3. **Seamless Integration**: Easily integrate Digital Signify into your existing workflows with our flexible APIs and integration options.
 
-4. Data Security: Robust security measures are implemented to protect users' digital signatures and ensure data privacy and confidentiality.
+  
+**Components of Website**
+---
+**Main Landing Page**
 
-# Technologies Used:
+Discover the future of document signing at Digital Signify. The landing page provides a polished introduction to our platform, reflecting the commitment to professionalism and user-centric design.
+<img width="1440" alt="Screenshot 2024-06-03 at 9 08 30 PM" src="https://github.com/tanishasrivastava/digital_signify/assets/138584422/6b7f98bc-bdef-486d-9934-3092cfc8f0fd">
 
-HTML
-CSS
-JavaScript
-Node.js
+<br>
+
+**Signature Creation Tool**
+
+Craft your digital signature effortlessly with our signature creation tool.Tailor your digital signature to reflect your personal or business brand with customizable options for font style, size, and color.
+<img width="266" alt="Screenshot 2024-06-03 at 9 44 40 PM" src="https://github.com/tanishasrivastava/digital_signify/assets/138584422/4114e70f-dc3d-40e6-84d5-d5a1aca7406b">
+
+
+
+
+ 
+
+
