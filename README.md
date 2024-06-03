@@ -1,4 +1,4 @@
-<img width="1440" alt="Screenshot 2024-06-03 at 9 08 30 PM" src="https://github.com/tanishasrivastava/digital_signify/assets/138584422/1897334b-bdcc-4bab-b9fd-8019a88b4691"># DIGITAL SIGNIFY
+# DIGITAL SIGNIFY
 <img width="1440" alt="Screenshot 2024-06-03 at 9 08 30 PM" src="https://github.com/tanishasrivastava/digital_signify/assets/138584422/e367e9b4-e93d-4964-bc46-98efe8613f24">
 
 
