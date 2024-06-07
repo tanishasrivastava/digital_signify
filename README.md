@@ -47,6 +47,20 @@ Discover the future of document signing at Digital Signify. The landing page pro
 Craft your digital signature effortlessly with our signature creation tool.Tailor your digital signature to reflect your personal or business brand with customizable options for font style, size, and color.
 <img width="266" alt="Screenshot 2024-06-03 at 9 44 40 PM" src="https://github.com/tanishasrivastava/digital_signify/assets/138584422/4114e70f-dc3d-40e6-84d5-d5a1aca7406b">
 
+<br>
+
+**About Us**
+Learn more about Digital Signify and how to use and manage digital signatures and document handling .
+<img width="1430" alt="Screenshot 2024-06-07 at 3 30 01 PM" src="https://github.com/tanishasrivastava/digital_signify/assets/138584422/ff34f8a5-896e-412f-97c4-1521a4d8b3a0">
+
+
+<br>
+
+**Scan Image**
+
+Convert your JPG images into scanned documents effortlessly with our Scan Image tool. This page provides an easy-to-use interface to upload and convert your images, making digital handling a breeze.
+<img width="1440" alt="Screenshot 2024-06-07 at 3 30 12 PM" src="https://github.com/tanishasrivastava/digital_signify/assets/138584422/d10a4c1e-bbfb-4aba-b5f1-9eabc17f8c24">
+
 
 
 
