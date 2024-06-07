@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scan Image - DIGITAL SIGNIFY</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon_ds.png" type="image/x-icon" />
+    <style>
+        body {
+            font-family: 'Sedan SC', serif;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        nav {
+            width: 100%;
+            background-color: #100e0e;
+            color: rgb(126, 177, 228);
+            padding: 15px 0;
+            text-align: center;
+            font-family: 'Sedan SC', serif;
+            font-size: 35px;
+            font-weight: bold;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 10;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav img {
+            height: 90px;
+            width: 90px;
+            margin-right: 0px;
+            margin-left: -1000px;
+        }
+
+        nav .nav-links {
+            position: absolute;
+            right: 20px;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav .nav-links a {
+            color: rgb(126, 177, 228);
+            text-decoration: none;
+            font-family: 'Sedan SC', serif;
+            font-size: 20px;
+        }
+
+        .container {
+            margin-top: 250px; /* Adjust this value to control the content container's top margin */
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: 60px; /* Adjust this value to control the h1 element's top margin */
+            font-size: 36px;
+            color: #0a0a0a; /* Dark color for better visibility */
+            font-weight: 700; /* Increase font weight */
+            position: relative;
+            z-index: 2;
+        }
+
+        .content {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 35px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        input[type="file"] {
+            display: block;
+            margin: 20px auto;
+        }
+
+        #background-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            opacity: 0.9; 
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <img src="favicon_ds.png" alt="Favicon"> DIGITAL SIGNIFY
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="scanimage.html">Scan Image</a>
+        </div>
+    </nav>
+    <img id="background-image" src="bg.jpeg" alt="Background Image">
+    <div class="container">
+        <h1>Scan Image</h1>
+        <div class="content">
+            <input type="file" id="fileInput" accept="image/jpeg">
+            <canvas id="scanCanvas" style="display:none;"></canvas>
+            <button class="btn btn-primary" onclick="scanImage()">Convert to Scanned Image</button>
+            <a id="downloadLink" style="display:none;" download="scanned_image.png">Download Scanned Image</a>
+        </div>
+    </div>
+    <script>
+        function scanImage() {
+            const fileInput = document.getElementById('fileInput');
+            const canvas = document.getElementById('scanCanvas');
+            const ctx = canvas.getContext('2d');
+            const downloadLink = document.getElementById('downloadLink');
+
+            if (fileInput.files.length === 0) {
+                alert('Please select a JPG image to convert.');
+                return;
+            }
+
+            const file = fileInput.files[0];
+            const reader = new FileReader();
+
+            reader.onload = function (event) {
+                const img = new Image();
+                img.onload = function () {
+                    canvas.width = img.width;
+                    canvas.height = img.height;
+                    ctx.drawImage(img, 0, 0);
+                    // Apply some filter to simulate scanning effect, for example:
+                    ctx.filter = 'brightness(1.2) contrast(1.2)';
+                    ctx.drawImage(canvas, 0, 0);
+
+                    const dataURL = canvas.toDataURL('image/png');
+                    downloadLink.href = dataURL;
+                    downloadLink.style.display = 'block';
+                }
+                img.src = event.target.result;
+            }
+            reader.readAsDataURL(file);
+        }
+    </script>
+</body>
+
+</html>
